@@ -15,6 +15,7 @@
 		0464BA881BC79A0500A62762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464BA861BC79A0500A62762 /* LaunchScreen.storyboard */; };
 		0464BA931BC79A0500A62762 /* TrendsTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464BA921BC79A0500A62762 /* TrendsTextViewTests.m */; };
 		0464BA9E1BC79A0500A62762 /* TrendsTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464BA9D1BC79A0500A62762 /* TrendsTextViewUITests.m */; };
+		0464BAAD1BC79A9F00A62762 /* TrendsTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464BAAC1BC79A9F00A62762 /* TrendsTextView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0464BA991BC79A0500A62762 /* TrendsTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendsTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0464BA9D1BC79A0500A62762 /* TrendsTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendsTextViewUITests.m; sourceTree = "<group>"; };
 		0464BA9F1BC79A0500A62762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0464BAAB1BC79A9F00A62762 /* TrendsTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendsTextView.h; sourceTree = "<group>"; };
+		0464BAAC1BC79A9F00A62762 /* TrendsTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendsTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				0464BA7C1BC79A0500A62762 /* AppDelegate.m */,
 				0464BA7E1BC79A0500A62762 /* ViewController.h */,
 				0464BA7F1BC79A0500A62762 /* ViewController.m */,
+				0464BAB11BC7AE8E00A62762 /* Trends */,
 				0464BA811BC79A0500A62762 /* Main.storyboard */,
 				0464BA841BC79A0500A62762 /* Assets.xcassets */,
 				0464BA861BC79A0500A62762 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				0464BA9F1BC79A0500A62762 /* Info.plist */,
 			);
 			path = TrendsTextViewUITests;
+			sourceTree = "<group>";
+		};
+		0464BAB11BC7AE8E00A62762 /* Trends */ = {
+			isa = PBXGroup;
+			children = (
+				0464BAAB1BC79A9F00A62762 /* TrendsTextView.h */,
+				0464BAAC1BC79A9F00A62762 /* TrendsTextView.m */,
+			);
+			name = Trends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				0464BA801BC79A0500A62762 /* ViewController.m in Sources */,
 				0464BA7D1BC79A0500A62762 /* AppDelegate.m in Sources */,
 				0464BA7A1BC79A0500A62762 /* main.m in Sources */,
+				0464BAAD1BC79A9F00A62762 /* TrendsTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
