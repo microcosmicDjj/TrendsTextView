@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0464BA7A1BC79A0500A62762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464BA791BC79A0500A62762 /* main.m */; };
+		0464BA7D1BC79A0500A62762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464BA7C1BC79A0500A62762 /* AppDelegate.m */; };
+		0464BA801BC79A0500A62762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464BA7F1BC79A0500A62762 /* ViewController.m */; };
+		0464BA831BC79A0500A62762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464BA811BC79A0500A62762 /* Main.storyboard */; };
+		0464BA851BC79A0500A62762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0464BA841BC79A0500A62762 /* Assets.xcassets */; };
+		0464BA881BC79A0500A62762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464BA861BC79A0500A62762 /* LaunchScreen.storyboard */; };
+		0464BA931BC79A0500A62762 /* TrendsTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464BA921BC79A0500A62762 /* TrendsTextViewTests.m */; };
+		0464BA9E1BC79A0500A62762 /* TrendsTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464BA9D1BC79A0500A62762 /* TrendsTextViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0464BA8F1BC79A0500A62762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0464BA6D1BC79A0500A62762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0464BA741BC79A0500A62762;
+			remoteInfo = TrendsTextView;
+		};
+		0464BA9A1BC79A0500A62762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0464BA6D1BC79A0500A62762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0464BA741BC79A0500A62762;
+			remoteInfo = TrendsTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0464BA751BC79A0500A62762 /* TrendsTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendsTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0464BA791BC79A0500A62762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0464BA7B1BC79A0500A62762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0464BA7C1BC79A0500A62762 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0464BA7E1BC79A0500A62762 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0464BA7F1BC79A0500A62762 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0464BA821BC79A0500A62762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0464BA841BC79A0500A62762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0464BA871BC79A0500A62762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0464BA891BC79A0500A62762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0464BA8E1BC79A0500A62762 /* TrendsTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendsTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0464BA921BC79A0500A62762 /* TrendsTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendsTextViewTests.m; sourceTree = "<group>"; };
+		0464BA941BC79A0500A62762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0464BA991BC79A0500A62762 /* TrendsTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendsTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0464BA9D1BC79A0500A62762 /* TrendsTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendsTextViewUITests.m; sourceTree = "<group>"; };
+		0464BA9F1BC79A0500A62762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0464BA721BC79A0500A62762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0464BA8B1BC79A0500A62762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0464BA961BC79A0500A62762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0464BA6C1BC79A0500A62762 = {
+			isa = PBXGroup;
+			children = (
+				0464BA771BC79A0500A62762 /* TrendsTextView */,
+				0464BA911BC79A0500A62762 /* TrendsTextViewTests */,
+				0464BA9C1BC79A0500A62762 /* TrendsTextViewUITests */,
+				0464BA761BC79A0500A62762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0464BA761BC79A0500A62762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0464BA751BC79A0500A62762 /* TrendsTextView.app */,
+				0464BA8E1BC79A0500A62762 /* TrendsTextViewTests.xctest */,
+				0464BA991BC79A0500A62762 /* TrendsTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0464BA771BC79A0500A62762 /* TrendsTextView */ = {
+			isa = PBXGroup;
+			children = (
+				0464BA7B1BC79A0500A62762 /* AppDelegate.h */,
+				0464BA7C1BC79A0500A62762 /* AppDelegate.m */,
+				0464BA7E1BC79A0500A62762 /* ViewController.h */,
+				0464BA7F1BC79A0500A62762 /* ViewController.m */,
+				0464BA811BC79A0500A62762 /* Main.storyboard */,
+				0464BA841BC79A0500A62762 /* Assets.xcassets */,
+				0464BA861BC79A0500A62762 /* LaunchScreen.storyboard */,
+				0464BA891BC79A0500A62762 /* Info.plist */,
+				0464BA781BC79A0500A62762 /* Supporting Files */,
+			);
+			path = TrendsTextView;
+			sourceTree = "<group>";
+		};
+		0464BA781BC79A0500A62762 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0464BA791BC79A0500A62762 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0464BA911BC79A0500A62762 /* TrendsTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0464BA921BC79A0500A62762 /* TrendsTextViewTests.m */,
+				0464BA941BC79A0500A62762 /* Info.plist */,
+			);
+			path = TrendsTextViewTests;
+			sourceTree = "<group>";
+		};
+		0464BA9C1BC79A0500A62762 /* TrendsTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0464BA9D1BC79A0500A62762 /* TrendsTextViewUITests.m */,
+				0464BA9F1BC79A0500A62762 /* Info.plist */,
+			);
+			path = TrendsTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0464BA741BC79A0500A62762 /* TrendsTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0464BAA21BC79A0500A62762 /* Build configuration list for PBXNativeTarget "TrendsTextView" */;
+			buildPhases = (
+				0464BA711BC79A0500A62762 /* Sources */,
+				0464BA721BC79A0500A62762 /* Frameworks */,
+				0464BA731BC79A0500A62762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrendsTextView;
+			productName = TrendsTextView;
+			productReference = 0464BA751BC79A0500A62762 /* TrendsTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0464BA8D1BC79A0500A62762 /* TrendsTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0464BAA51BC79A0500A62762 /* Build configuration list for PBXNativeTarget "TrendsTextViewTests" */;
+			buildPhases = (
+				0464BA8A1BC79A0500A62762 /* Sources */,
+				0464BA8B1BC79A0500A62762 /* Frameworks */,
+				0464BA8C1BC79A0500A62762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0464BA901BC79A0500A62762 /* PBXTargetDependency */,
+			);
+			name = TrendsTextViewTests;
+			productName = TrendsTextViewTests;
+			productReference = 0464BA8E1BC79A0500A62762 /* TrendsTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0464BA981BC79A0500A62762 /* TrendsTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0464BAA81BC79A0500A62762 /* Build configuration list for PBXNativeTarget "TrendsTextViewUITests" */;
+			buildPhases = (
+				0464BA951BC79A0500A62762 /* Sources */,
+				0464BA961BC79A0500A62762 /* Frameworks */,
+				0464BA971BC79A0500A62762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0464BA9B1BC79A0500A62762 /* PBXTargetDependency */,
+			);
+			name = TrendsTextViewUITests;
+			productName = TrendsTextViewUITests;
+			productReference = 0464BA991BC79A0500A62762 /* TrendsTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0464BA6D1BC79A0500A62762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					0464BA741BC79A0500A62762 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					0464BA8D1BC79A0500A62762 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0464BA741BC79A0500A62762;
+					};
+					0464BA981BC79A0500A62762 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0464BA741BC79A0500A62762;
+					};
+				};
+			};
+			buildConfigurationList = 0464BA701BC79A0500A62762 /* Build configuration list for PBXProject "TrendsTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0464BA6C1BC79A0500A62762;
+			productRefGroup = 0464BA761BC79A0500A62762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0464BA741BC79A0500A62762 /* TrendsTextView */,
+				0464BA8D1BC79A0500A62762 /* TrendsTextViewTests */,
+				0464BA981BC79A0500A62762 /* TrendsTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0464BA731BC79A0500A62762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0464BA881BC79A0500A62762 /* LaunchScreen.storyboard in Resources */,
+				0464BA851BC79A0500A62762 /* Assets.xcassets in Resources */,
+				0464BA831BC79A0500A62762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0464BA8C1BC79A0500A62762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0464BA971BC79A0500A62762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0464BA711BC79A0500A62762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0464BA801BC79A0500A62762 /* ViewController.m in Sources */,
+				0464BA7D1BC79A0500A62762 /* AppDelegate.m in Sources */,
+				0464BA7A1BC79A0500A62762 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0464BA8A1BC79A0500A62762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0464BA931BC79A0500A62762 /* TrendsTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0464BA951BC79A0500A62762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0464BA9E1BC79A0500A62762 /* TrendsTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0464BA901BC79A0500A62762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0464BA741BC79A0500A62762 /* TrendsTextView */;
+			targetProxy = 0464BA8F1BC79A0500A62762 /* PBXContainerItemProxy */;
+		};
+		0464BA9B1BC79A0500A62762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0464BA741BC79A0500A62762 /* TrendsTextView */;
+			targetProxy = 0464BA9A1BC79A0500A62762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0464BA811BC79A0500A62762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0464BA821BC79A0500A62762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0464BA861BC79A0500A62762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0464BA871BC79A0500A62762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0464BAA01BC79A0500A62762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0464BAA11BC79A0500A62762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0464BAA31BC79A0500A62762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrendsTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gt2002.www.TrendsTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0464BAA41BC79A0500A62762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrendsTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gt2002.www.TrendsTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0464BAA61BC79A0500A62762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrendsTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gt2002.www.TrendsTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrendsTextView.app/TrendsTextView";
+			};
+			name = Debug;
+		};
+		0464BAA71BC79A0500A62762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrendsTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gt2002.www.TrendsTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrendsTextView.app/TrendsTextView";
+			};
+			name = Release;
+		};
+		0464BAA91BC79A0500A62762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrendsTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gt2002.www.TrendsTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrendsTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0464BAAA1BC79A0500A62762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrendsTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.gt2002.www.TrendsTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrendsTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0464BA701BC79A0500A62762 /* Build configuration list for PBXProject "TrendsTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0464BAA01BC79A0500A62762 /* Debug */,
+				0464BAA11BC79A0500A62762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0464BAA21BC79A0500A62762 /* Build configuration list for PBXNativeTarget "TrendsTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0464BAA31BC79A0500A62762 /* Debug */,
+				0464BAA41BC79A0500A62762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0464BAA51BC79A0500A62762 /* Build configuration list for PBXNativeTarget "TrendsTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0464BAA61BC79A0500A62762 /* Debug */,
+				0464BAA71BC79A0500A62762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0464BAA81BC79A0500A62762 /* Build configuration list for PBXNativeTarget "TrendsTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0464BAA91BC79A0500A62762 /* Debug */,
+				0464BAAA1BC79A0500A62762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0464BA6D1BC79A0500A62762 /* Project object */;
+}
